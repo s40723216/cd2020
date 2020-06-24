@@ -300,15 +300,19 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20200625035532.2">##### 創建新的倉儲cd2020
-[1.下載2019Fall可攜套件.7z (編譯  Solvespace 用)，完成後開啟。
-2.登入個人github帳號，創建新的倉儲cd2020。
-3.進入要存放的資料夾
-4.輸入git clone  https://github.com/s40723216/cd2020 。
-5.輸入git submodule add https://github.com/mdecourse/cmsimde.git 。
-6.將up_dir的裡的資料複製到cd2020。
-7.完成後，python wsgi.py 開始編輯倉儲。
-8.編輯完成後， git add . &gt; git commit -m "  " &gt; git push]
-</t>
+* 下載2019Fall可攜套件.7z (編譯  Solvespace 用)，完成後開啟
+
+* 登入個人github帳號，創建新的倉儲cd2020
+
+* 進入要存放的資料夾
+
+* 輸入git clone  https://github.com/s40723216/cd2020
+
+* 輸入git submodule add https://github.com/mdecourse/cmsimde.git 
+
+* 將up_dir的裡的資料複製到cd2020
+
+* 完成後，python wsgi.py 開始編輯倉儲</t>
 <t tx="leo.20200625035536.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -518,7 +522,7 @@ flask-cors 、markdown、 lxml 、bs4、 pelican 、leo
 </t>
 <t tx="leo.20200625043441.2">### week16
 ##### IPv6連線個人倉儲
-&lt;iframe width="560" height="315" src="https://youtu.be/5IPWWhNHg-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5IPWWhNHg-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200625043444.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
