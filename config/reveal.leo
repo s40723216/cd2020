@@ -534,6 +534,6 @@ flask-cors 、markdown、 lxml 、bs4、 pelican 、leo
 </t>
 <t tx="leo.20200625043444.2">### week17
 ##### final report
-</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MfuEenu1Vkg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
