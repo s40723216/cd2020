@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='Weeks.html'>Weeks</a><ul class='dropdown'><li><a href='week1~5.html'>week1~5</a><li><a href='week6~9.html'>week6~9</a><li><a href='week10~14.html'>week10~14</a><li><a href='week15~18.html'>week15~18</a></li></ul><li class='has-children'><a href='Assignment.html'>Assignment</a><ul class='dropdown'><li class='has-children'><a href='Assignment1.html'>Assignment1</a><ul class='dropdown'><li><a href='Line following BubbleRob tutorial.html'>Line following BubbleRob tutorial</a><li><a href='portable system.html'>portable system</a><li><a href='random grouping.html'>random grouping</a><li><a href='Four wheel car.html'>Four wheel car</a></li></ul><li><a href='Assignment2.html'>Assignment2</a><li class='has-children'><a href='Assignment3.html'>Assignment3</a><ul class='dropdown'><li><a href='MSModelingAndTFApproaches60~90.html'>MSModelingAndTFApproaches60~90</a></li></li></ul></ul><li><a href='期末報告.html'>期末報告</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='Weeks.html'>Weeks</a><ul class='dropdown'><li><a href='week1~5.html'>week1~5</a><li><a href='week6~9.html'>week6~9</a><li><a href='week10~14.html'>week10~14</a><li><a href='week15~18.html'>week15~18</a></li></ul><li class='has-children'><a href='Assignment.html'>Assignment</a><ul class='dropdown'><li class='has-children'><a href='Assignment1.html'>Assignment1</a><ul class='dropdown'><li><a href='Line following BubbleRob tutorial.html'>Line following BubbleRob tutorial</a><li><a href='portable system.html'>portable system</a><li><a href='random grouping.html'>random grouping</a><li><a href='Four wheel car.html'>Four wheel car</a></li></ul><li><a href='Assignment2.html'>Assignment2</a><li class='has-children'><a href='Assignment3.html'>Assignment3</a><ul class='dropdown'><li><a href='MSModelingAndTFApproaches60~90.html'>MSModelingAndTFApproaches60~90</a></li></li></ul></ul><li><a href='final report.html'>final report</a></li>
                       </ul>
                 </nav>
               </div>
@@ -155,6 +155,29 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">week10~14 << <a href='week10~14.html'>Previous</a> <a href='Assignment.html'>Next</a> >> Assignment<br /><h1>week15~18</h1>
+<h4>week15</h4>
+<p>將Assignment2的分組討論內容進行合併</p>
+<p>操作ununtu熟悉再其環境下的操作介面和網路設定</p>
+<h4>week16</h4>
+<p>IPv6連線個人倉儲</p>
+<p>1.將ubuntu打開，輸入<span>cd /etc &gt; cd apt &gt;cd apt.conf.d &gt; sudo vi proxy.conf </span></p>
+<p><span>密碼:kmol2020</span></p>
+<p><span>2.<span>按 i 編輯</span><span>成<span> </span></span><span>Acquire::http::Proxy:: "[2001:288:6004:17::69]:3128"; 存檔退出</span></span></p>
+<p><span><span>3.在<span><span>apt下</span>輸入<span><span> </span>sudo apt update <span>更新apt</span></span>，輸入<span> </span><span>sudo apt install net-tools</span>， <span>cd /etc &gt; cd netplan &gt; sudo vi 00-installer-config.yaml</span></span><span>，編輯內容如影片</span></span></span></p>
+<p><span><span><span>4.在<span><span>netplan 下</span>輸入<span>ping6 2001:288:6004:17::254</span>測試</span></span></span></span></p>
+<p><span><span><span>新增ipv4及ipv6埠號,ipv6 的 guestip<span><span> </span>要在</span><span><span> </span>netplan下輸入 ifconfig 查詢</span><span>，輸入 </span><span>fd17 </span><span>那行</span></span></span></span></p>
+<p><span><span><span><img alt="" height="343" src="./../images/IPV6設定1.PNG" width="464"/></span></span></span></p>
+<p><span><span><span>5.進入<span>tmp</span><span>，輸入<span> </span></span><span>git config -- global --add http.proxy [2001:288:6004:17::69]:3128</span><span>，完成後輸入<span> </span></span><span>git clone --recurse-submodules 個人倉儲網址</span></span></span></span></p>
+<p><span><span><span><span>6.進入<span>cd2020 &gt; cmsimde</span><span>，輸入</span><span>sudo vi wsgi.py</span><span>，將</span><span>近端host網址</span><span>更改為</span><span>個人ipv6的gusetIP</span></span></span></span></span></p>
+<p><span><span><span><span><span><img alt="" height="288" src="./../images/近端IP更改.PNG" width="455"/></span></span></span></span></span></p>
+<p>7.<span>輸入 </span><span mce-data-marked="1">python3 wsgi.py</span><span><span> </span>開啟近端</span></p>
+<h6>8.<span>將</span><span mce-data-marked="1">ipv6的hostip</span><span>改為 </span><span mce-data-marked="1"><span> </span>2001:288:6004:17:2020:2::72個人號碼</span></h6>
+<p><span mce-data-marked="1"><img alt="" height="339" src="./../images/HOST更改.PNG" width="489"/></span></p>
+<p><span mce-data-marked="1"><span>9.變更網路介面卡設定</span><span mce-data-marked="1"><span> </span>ipv6位址</span><span>為<span> </span></span><span mce-data-marked="1">2001:288:6004:17:2020:2::72個人號碼</span><span>，</span><span mce-data-marked="1">長度64，閘道2001:288:6004:17::254</span><span>，關閉proxy及防火牆，開起個人近端連線網址為<span> </span></span><span mce-data-marked="1"><a href="https://[2001:288:6004:17:2020:2::72個人號碼]:19443">https://[2001:288:6004:17:2020:2::72個人號碼]:19443</a></span></span></p>
+<p><span mce-data-marked="1"><span mce-data-marked="1">即可開始編輯網站。</span></span></p>
+<p><span mce-data-marked="1"><span mce-data-marked="1">以下為操作影片:</span></span></p>
+<p><span mce-data-marked="1"><span mce-data-marked="1"><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/5IPWWhNHg-E" width="560"></iframe></span></span></p>
+<h4><span><span><span><span><span></span></span></span></span></span>week17</h4>
 <p></p>
 <br />week10~14 << <a href='week10~14.html'>Previous</a> <a href='Assignment.html'>Next</a> >> Assignment</div>
         
