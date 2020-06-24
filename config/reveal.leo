@@ -25,58 +25,58 @@
 <v t="leo.20180902120523.12"><vh>week</vh></v>
 </v>
 <v t="leo.20200625035532.1"><vh>week1</vh>
-<v t="leo.20200625035532.2"><vh>week</vh></v>
+<v t="leo.20200625035532.2"><vh>week1-1</vh></v>
 </v>
 <v t="leo.20200625035536.1"><vh>week2</vh>
-<v t="leo.20200625035536.2"><vh>week</vh></v>
+<v t="leo.20200625035536.2"><vh>week2-1</vh></v>
 </v>
 <v t="leo.20200625035538.1"><vh>ASSIGNMENT1</vh>
-<v t="leo.20200625035538.2"><vh>week</vh></v>
+<v t="leo.20200625035538.2"><vh>weekA-1</vh></v>
 </v>
 <v t="leo.20200625035540.1"><vh>week3</vh>
-<v t="leo.20200625035540.2"><vh>week</vh></v>
+<v t="leo.20200625035540.2"><vh>week3-1</vh></v>
 </v>
 <v t="leo.20200625035541.1"><vh>week4</vh>
-<v t="leo.20200625035541.2"><vh>week</vh></v>
+<v t="leo.20200625035541.2"><vh>week4-1</vh></v>
 </v>
 <v t="leo.20200625035543.1"><vh>obs</vh>
-<v t="leo.20200625035543.2"><vh>week</vh></v>
+<v t="leo.20200625035543.2"><vh>week5-1</vh></v>
 </v>
 <v t="leo.20200625035822.1"><vh>week6</vh>
-<v t="leo.20200625035822.2"><vh>week</vh></v>
+<v t="leo.20200625035822.2"><vh>week6-1</vh></v>
 </v>
 <v t="leo.20200625035831.1"><vh>week7</vh>
-<v t="leo.20200625035831.2"><vh>week</vh></v>
+<v t="leo.20200625035831.2"><vh>week7-1</vh></v>
 </v>
 <v t="leo.20200625035839.1"><vh>week8</vh>
-<v t="leo.20200625035839.2"><vh>week</vh></v>
+<v t="leo.20200625035839.2"><vh>week8-1</vh></v>
 </v>
 <v t="leo.20200625042103.1"><vh>week9</vh>
-<v t="leo.20200625042103.2"><vh>week</vh></v>
+<v t="leo.20200625042103.2"><vh>week9-1</vh></v>
 </v>
 <v t="leo.20200625035840.1"><vh>week10</vh>
-<v t="leo.20200625035840.2"><vh>week</vh></v>
+<v t="leo.20200625035840.2"><vh>week10-1</vh></v>
 </v>
 <v t="leo.20200625035842.1"><vh>week11</vh>
-<v t="leo.20200625035842.2"><vh>week</vh></v>
+<v t="leo.20200625035842.2"><vh>week11-1</vh></v>
 </v>
 <v t="leo.20200625035843.1"><vh>week12</vh>
-<v t="leo.20200625035843.2"><vh>week</vh></v>
+<v t="leo.20200625035843.2"><vh>week12-1</vh></v>
 </v>
 <v t="leo.20200625035845.1"><vh>week13</vh>
-<v t="leo.20200625035845.2"><vh>week</vh></v>
+<v t="leo.20200625035845.2"><vh>week13-1</vh></v>
 </v>
 <v t="leo.20200625035846.1"><vh>week14</vh>
-<v t="leo.20200625035846.2"><vh>week</vh></v>
+<v t="leo.20200625035846.2"><vh>week14-1</vh></v>
 </v>
 <v t="leo.20200625043439.1"><vh>week15</vh>
-<v t="leo.20200625043439.2"><vh>week</vh></v>
+<v t="leo.20200625043439.2"><vh>weel15-1</vh></v>
 </v>
 <v t="leo.20200625043441.1"><vh>week16</vh>
-<v t="leo.20200625043441.2"><vh>week</vh></v>
+<v t="leo.20200625043441.2"><vh>week16-1</vh></v>
 </v>
 <v t="leo.20200625043444.1"><vh>week17</vh>
-<v t="leo.20200625043444.2"><vh>week</vh></v>
+<v t="leo.20200625043444.2"><vh>week17-1</vh></v>
 </v>
 </v>
 </v>
@@ -196,7 +196,9 @@ Created by [林子欽](https://s40723216.github.io/cd2020/content/index.html)
 &lt;/body&gt;
 
 </t>
-<t tx="leo.20180902120523.7"></t>
+<t tx="leo.20180902120523.7">&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;</t>
 <t tx="leo.20180902120523.8">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
 @others
